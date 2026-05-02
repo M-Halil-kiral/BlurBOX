@@ -67,6 +67,13 @@ BlurBOX, C# (.NET Framework) kullanılarak geliştirilmiş çok modüllü bir Wi
 !\[BlurFinans](assets/screenshots/blurfinans.png)
 
 
+### 🎮 BlurGames
+![BlurGames](assets/screenshots/blurgames.png)
+
+### 📺 BlurTV
+![BlurTV](assets/screenshots/blurtv.png)
+
+
 
 \---
 
