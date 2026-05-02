@@ -11,7 +11,7 @@ namespace BlurBOX
         public VeritabaniBaglanti()
         {
             // App.config'deki bağlantı dizesini oku
-            connectionString = ConfigurationManager.ConnectionStrings["BlurBOX.Properties.Settings.blurBOXConnectionString"].ConnectionString;
+            connectionString = @"Data Source=HALILPC;Initial Catalog=blurBOX;Integrated Security=True;";
         }
 
         public SqlConnection GetConnection()

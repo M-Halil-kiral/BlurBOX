@@ -118,7 +118,7 @@ namespace BlurBOX
 
         public class VeritabaniBaglanti 
         {
-            private string connectionString = "Data Source=MHALILKIRAL\\SQLEXPRESS;Initial Catalog=blurBOX;Integrated Security=True;";
+            private string connectionString = "Data Source=.;Initial Catalog=blurBOX;Integrated Security=True;";
             public SqlConnection GetConnection()
             { 
                 return new SqlConnection(connectionString);

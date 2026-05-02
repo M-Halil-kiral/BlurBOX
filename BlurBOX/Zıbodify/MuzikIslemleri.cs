@@ -23,7 +23,7 @@ namespace BlurBOX
             // TODO: Bu kod satırı 'blurBOXDataSet.Muzik' tablosuna veri yükler. Bunu gerektiği şekilde taşıyabilir, veya kaldırabilirsiniz.
             this.muzikTableAdapter.Fill(this.blurBOXDataSet.Muzik);
             // TODO: Bu kod satırı 'blurBOXDataSet.Filmler' tablosuna veri yükler. Bunu gerektiği şekilde taşıyabilir, veya kaldırabilirsiniz.
-            this.filmlerTableAdapter.Fill(this.blurBOXDataSet.Filmler);
+            //this.filmlerTableAdapter.Fill(this.blurBOXDataSet.Filmler);
 
         }
 

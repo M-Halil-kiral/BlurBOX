@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,18 @@ namespace BlurBOX
         private void Filmislemleri_Load(object sender, EventArgs e)
         {
             // TODO: Bu kod satırı 'blurBOXDataSet.Filmler' tablosuna veri yükler. Bunu gerektiği şekilde taşıyabilir, veya kaldırabilirsiniz.
-            this.filmlerTableAdapter.Fill(this.blurBOXDataSet.Filmler);
+            //this.filmlerTableAdapter.Fill(this.blurBOXDataSet.Filmler);
+            using (SqlConnection conn = new SqlConnection(ConfigHelper.GetConnectionString()))
+            {
+                SqlDataAdapter adapter = new SqlDataAdapter(
+                    "SELECT id, baslik, tur, dosya_yolu FROM Filmler", conn
+                );
+
+                DataTable table = new DataTable();
+                adapter.Fill(table);
+
+                dataGridView1.DataSource = table;
+            }
 
         }
 
