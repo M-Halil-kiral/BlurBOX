@@ -34,38 +34,24 @@ BlurBOX, C# (.NET Framework) kullanılarak geliştirilmiş çok modüllü bir Wi
 
 
 
+
+
 \## 🖼️ Ekran Görüntüleri
 
+### 🔐 Giriş Ekranı
+![Login](assets/screenshots/login.png)
 
+### 🏠 Ana Menü
+![Home](assets/screenshots/home.png)
 
-\### 🔐 Giriş Ekranı
+### 🎬 BlurFlix
+![BlurFlix](assets/screenshots/blurflix.png)
 
-!\[Login](assets/screenshots/login.png)
+### 🎵 Zibodify
+![Zibodify](assets/screenshots/zibodify.png)
 
-
-
-\### 🏠 Ana Menü
-
-!\[Home](assets/screenshots/home.png)
-
-
-
-\### 🎬 BlurFlix
-
-!\[BlurFlix](assets/screenshots/blurflix.png)
-
-
-
-\### 🎵 Zibodify
-
-!\[Zibodify](assets/screenshots/zibodify.png)
-
-
-
-\### 💰 BlurFinans
-
-!\[BlurFinans](assets/screenshots/blurfinans.png)
-
+### 💰 BlurFinans
+![BlurFinans](assets/screenshots/blurfinans.png)
 
 ### 🎮 BlurGames
 ![BlurGames](assets/screenshots/blurgames.png)
